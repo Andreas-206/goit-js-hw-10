@@ -41,10 +41,8 @@ function startCountdown(timeDifference) {
 
     document.querySelector('[data-days]').innerText = addZero(days);
     document.querySelector('[data-hours]').innerText = addZero(hours);
-    document.querySelector('[data-minutes]').innerText =
-      addZero(minutes);
-    document.querySelector('[data-seconds]').innerText =
-      addZero(seconds);
+    document.querySelector('[data-minutes]').innerText = addZero(minutes);
+    document.querySelector('[data-seconds]').innerText = addZero(seconds);
 
     timeDifference -= 1000;
 
